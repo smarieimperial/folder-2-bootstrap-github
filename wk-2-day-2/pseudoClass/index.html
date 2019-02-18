@@ -1,0 +1,67 @@
+<!-- # :Pseudo-classes
+In this activity you'll use pseudo-classes to style elements based on their state.
+
+## Instructions
+* Create a series of links and modify the pseudo-classes associated with their Default, Active, Hover, and Focus States.
+
+* Hint: Nope. No starter code. Gotta do this from scratch :-)
+## Bonus
+* If you finish early, incorporate a pseudo-class we haven't covered in your page. Then read about "pseudo-elements" and try to incorporate one as well.
+* Slack out the code and screenshot if you end up completing the bonus.
+* **Extra** - Learn about css transitions to add a fading hover effect to a link (\\&lt;a>) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo Classes</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <style>
+            a:link {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            </style>
+
+    <body>
+        <h2>Press the default link</h2>
+        
+        <p><a href="https://www.google.com">Default</a></p>
+
+        <h2>Press the active link</h2>
+
+        <p><a href="#active">Active</a></p>
+
+        <h2>Press the hover link</h2>
+
+        <p><a href="#hover">Hover</a></p>
+
+        <h2>Press the focus state link</h2>
+
+        <p><a href="#focus">Focus States</a></p>
+
+  
+
+    </body>
+
+</html>

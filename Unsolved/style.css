@@ -1,0 +1,15 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.large-font {
+    font-size: 24px;
+}
+
+p.line-height {
+    line-height: 50px;
+}
