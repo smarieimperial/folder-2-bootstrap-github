@@ -10,11 +10,11 @@
   The background color will be #ccc
   at browser widths above 768px
 */
+
 body {
   /* Typography */
   font-size: 18px;
   line-height: 27px;
-
   /* Visual */
   background-color: #ccc;
 }
@@ -23,6 +23,7 @@ body {
   The width of the wrapper will be 1024px
   at browser widths above 768px
 */
+
 .wrapper {
   /* Box-model */
   width: 1024px;
